@@ -6,11 +6,6 @@ h1 {
   font-size: 2rem;
 }
 
-.title,
-p {
-  text-align: center;
-}
-
 .container {
   display: flex;
   flex-direction: row;
@@ -21,6 +16,9 @@ p {
   text-align: justify;
 }
 
+.center {
+  text-align: center;
+}
 /*mobile phone*/
 @media (max-width: 480px) {
   .container {
